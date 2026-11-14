@@ -32,6 +32,9 @@ Os programas de paletização (`Palletizing_Main`) gerados no RoboDK estão na p
 
 ## Shadowing no RoboDK
 
+https://github.com/user-attachments/assets/3698d22a-728a-415b-aa61-2b1589dd08f0
+
+
 O código de shadowing está em [`Shadowing_RoboDK.py`](Shadowing_RoboDK.py). Ele se conecta direto na porta RTDE do robô (30004), recebe a posição das juntas (`actual_q`) a 62,5 Hz e atualiza o robô `UR10` da estação aberta no RoboDK, que passa a acompanhar o robô real (ou o URSim) em tempo real.
 
 ```bash
